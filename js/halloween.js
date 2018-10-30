@@ -5,6 +5,7 @@ var x = setInterval(function () {
   var now = new Date();
   if (now.getMonth() == halloweenMonth - 1 && now.getDate == halloweenDay) {
     document.getElementById("counter").innerHTML = "HAPPY HALLOWEEN";
+    document.getElementById("content").innerHTML = "🎃";
   }
   else {
     var halloweenYear = now.getFullYear();

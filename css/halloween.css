@@ -1,6 +1,7 @@
 body{
   height:70vh;
   background-color: rgb(230, 230, 228);
+  font-family: 'Oswald', sans-serif;
 }
 
 @keyframes float {
@@ -148,4 +149,20 @@ div#counter {
   width: 300px;
   height: 100px;
   position: relative;
+}
+
+div#content {
+  top:calc(50% - 150px);
+  text-align: center;
+  font-size: 30px;
+  margin: auto;
+  width: 300px;
+  height: 100px;
+  position: relative;
+}
+
+h2{
+  color: rgb(250, 68, 48);
+  font-size: 36px;
+  line-height: 30px;
 }
